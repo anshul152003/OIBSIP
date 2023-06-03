@@ -1,0 +1,86 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 1.7s ease;
+}
+       
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient( to bottom right,rgb(24, 131, 150),rgb(18, 38, 118));
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+              
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    color: rgb(213, 206, 237);
+    -webkit-text-stroke: 0.5px rgb(55, 8, 65);
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+#display {
+    margin-top: 25px;
+    max-width: 330px;
+    font-size: 40px;
+    background-color: #9bdcde;
+    padding: 10px;
+    border-radius: 5px;    
+}
+                  
+button {
+    height: 70px;
+    width: 70px;
+    border: 0;
+    border-radius: 50px;
+    margin: 5px;
+    background-color: #9ecee4;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 100ms ease;
+}
+       
+button:hover {
+    transform: scale(1.1);
+    background-color: #7cbfa1;
+} 
+        
+button#equal {
+    height: 140px;
+}      
+
+.calculator {
+    position: relative;
+    top: 10px;
+    height: auto;
+    width: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #804343;
+}
+
+.footer{
+    margin-bottom: 50px;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+       
+p{
+    color: #01144e;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+}
